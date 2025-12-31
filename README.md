@@ -1,16 +1,82 @@
-# React + Vite
+📘 Student Data Explorer (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React CRUD-style application to collect and display student information using a form and a table. Built with React, React-Bootstrap, and modern React Hooks.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Netlify: https://explorer-react-project.netlify.app
 
-## React Compiler
+📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Student Data input form
 
-## Expanding the ESLint configuration
+Table view showing added student records
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+(You can add screenshots inside a screenshots/ folder and link them here later)
+
+✨ Features
+
+📋 Student data input form
+
+🧠 State management using useState
+
+➕ Add student records dynamically
+
+🧾 Display student data in a table
+
+🎨 Responsive UI with React-Bootstrap
+
+♻️ Form reset after submission
+
+❌ Shows “Data is Empty” when no records exist
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: React-Bootstrap, CSS
+
+State Management: React Hooks (useState)
+
+Deployment: Netlify
+
+📂 Project Structure
+explorer-project/
+<br/>
+├── src/
+<br/>
+│   ├── components/
+<br/>
+│   │   ├── FormData.jsx
+<br/>
+│   │   ├── ListData.jsx
+<br/>
+│   │   └── StudentContainer.jsx
+<br/>
+│   ├── App.jsx
+<br/>
+│   ├── main.jsx
+<br/>
+│   ├── App.css
+<br/>
+│   └── index.css
+<br/>
+├── public/
+<br/>
+├── package.json
+<br/>
+├── vite.config.js
+<br/>
+└── README.md
+
+🧑‍🎓 Student Data Fields
+
+GR_ID
+
+Full Name
+
+Course Name
+
+Contact Number
+
+Address
